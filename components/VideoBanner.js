@@ -64,7 +64,7 @@ const VideoBanner = () => {
           onMouseLeave={() => {
             setIsHover(false);
           }}
-          src="/video/video.mp4"
+          src="/video/swell.mov"
           alt="cambium"
           onClick={() => {
             if (videoRef.current.paused) {
