@@ -107,7 +107,7 @@ const Hero = () => {
           id="form"
           className="bg-green min-h-full lg:w-3/6 w-full px-3 lg:px-10 py-7 mt-5 lg:mt-0 z-10"
         >
-          <h2 className="text-or text-2xl font-raleway">
+          <h2 className="text-or text-2xl font-raleway text-blue">
             Vous souhaitez nous rencontrer ?<br />
             <span className="text-white inline-block text-2xl font-raleway font-normal">
               Téléchargez votre invitation gratuite et le plan du salon
