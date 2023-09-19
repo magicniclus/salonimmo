@@ -36,7 +36,7 @@ const TwoImagesBanner = () => {
             className="lg:w-24 w-16 mt-4"
           />
         </div>
-        <h2 className="text-blue text-xl lg:text-4xl">
+        <h2 className="text-blue text-xl lg:text-4xl  font-vidaloka">
           DES ADRESSES BORDEAUX MÉTROPOLE
         </h2>
         <p className="text-white text-xl lg:text-2xl">
