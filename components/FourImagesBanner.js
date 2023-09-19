@@ -29,7 +29,7 @@ const FourImagesBanner = () => {
         <div className="absolute right-10 hidden lg:flex flex-col top-20 transform -translate-y-1/2">
           <img src="/IMG/PTZ-BLEU.png" alt="logo" className="lg:w-24 w-16 " />
         </div>
-        <h2 className="text-blue text-xl lg:text-4xl">
+        <h2 className="text-blue text-xl lg:text-4xl font-vidaloka">
           JETEZ-VOUS À L’EAU CÔTÉ ATLANTIQUE
         </h2>
         <p className="text-white text-xl lg:text-2xl">
