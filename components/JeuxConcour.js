@@ -8,7 +8,7 @@ const JeuxConcour = () => {
           <h2 className="text-green text-4xl lg:text-6xl font-vidaloka">
             JEU-CONCOURS
           </h2>
-          <h3 className="text-white text-4xl mt-12 leading-loose">
+          <h3 className="text-white text-4xl mt-5 leading-loose">
             Planche de surf à gagner !
           </h3>
           <p className="text-white mt-5 lg:text-xl text-lg leading-loose">
