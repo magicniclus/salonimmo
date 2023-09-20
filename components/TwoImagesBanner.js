@@ -2,10 +2,22 @@ import React from "react";
 
 const TwoImagesBanner = () => {
   return (
-    <div className="mt-14 w-full mx-auto max-w-7xl flex flex-col justify-between items-center z-10 overflow-hidden py-10">
-      <div className="flex lg:flex-row flex-col justify-between w-full relative px-4">
+    <div className="lg:mt-14 w-full mx-auto max-w-7xl flex flex-col justify-between items-center z-10 overflow-hidden lg:py-10">
+      <div className="flex lg:flex-row flex-col justify-between w-full relative lg:px-4">
+        <div className="flex flex-col lg:w-auto w-full lg:absolute top-14 lg:top-24 left-5 bg-blue lg:max-w-[90%] lg:bg-opacity-0 lg:px-2 lg:py-0 py-10">
+          <div className="bg-blue w-content px-1 lg:w-auto w-[100%] font-bold">
+            <h2 className="text-white text-xl lg:text-4xl">
+              Devenir propriétaire à Bordeaux, c’est possible !
+            </h2>
+          </div>
+          <div className="bg-blue w-content lg:w-max px-1 w-[90%] lg:mt-0 mt-7 font-bold">
+            <h2 className="text-white text-2xl lg:text-4xl">
+              OPTEZ POUR UN LOGEMENT NEUF À PRIX MAÎTRISÉ
+            </h2>
+          </div>
+        </div>
         <img
-          className="lg:w-[48%] w-full object-cover"
+          className="lg:w-[48%] w-full object-cover h-[600px] lg:h-auto"
           src="/IMG/img-bdx-responsive.jpg"
           alt="résidence"
         />
@@ -14,18 +26,6 @@ const TwoImagesBanner = () => {
           src="/IMG/immeuble.png"
           alt="résidence"
         />
-        <div className="flex flex-col absolute top-14 lg:top-24 left-5 bg-blue max-w-[90%] lg:bg-opacity-0">
-          <div className="bg-blue w-content w-max px-1">
-            <h2 className="text-white text-xl lg:text-4xl">
-              Devenir propriétaire à Bordeaux, c’est possible !
-            </h2>
-          </div>
-          <div className="bg-blue w-content lg:w-max px-1 w-[90%]">
-            <h2 className="text-white text-xl lg:text-4xl">
-              OPTEZ POUR UN LOGEMENT NEUF À PRIX MAÎTRISÉ
-            </h2>
-          </div>
-        </div>
       </div>
       <div className="w-full bg-green py-10  px-3 lg:px-10 relative">
         <div className="absolute right-10 hidden lg:flex flex-col top-36 transform -translate-y-1/2">
@@ -39,11 +39,11 @@ const TwoImagesBanner = () => {
         <h2 className="text-blue text-xl lg:text-4xl  font-vidaloka">
           DES ADRESSES BORDEAUX MÉTROPOLE
         </h2>
-        <p className="text-white text-xl lg:text-2xl">
-          éligibles aux aides financières pour devenir propriétaire et emménager
+        <p className="text-white text-xl lg:text-2xl font-bold">
+          éligibles aux aides financières pour devenir propriétaire et emménager
           dès 2024
         </p>
-        <h3 className=" text-xl lg:text-2xl text-blue mt-10">
+        <h3 className=" text-xl lg:text-2xl text-blue mt-10 font-bold">
           BORDEAUX PARC D’ARMAGNAC & FLOIRAC CENTRE-VILLE
         </h3>
         <ul className="text-blue">
