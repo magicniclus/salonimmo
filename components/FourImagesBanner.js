@@ -31,9 +31,6 @@ const FourImagesBanner = () => {
         />
       </div>
       <div className="w-full bg-green py-10  px-3 lg:px-10 relative">
-        <div className="absolute right-10 hidden lg:flex flex-col top-20 transform -translate-y-1/2">
-          <img src="/IMG/PTZ-BLEU.png" alt="logo" className="lg:w-24 w-16 " />
-        </div>
         <h2 className="text-blue text-xl lg:text-4xl font-vidaloka">
           JETEZ-VOUS À L’EAU CÔTÉ ATLANTIQUE
         </h2>
@@ -41,6 +38,9 @@ const FourImagesBanner = () => {
           plages de sable fin, espaces naturels exceptionnels, centres-villes
           vivants toute l’année...
         </p>
+        <div className="lg:absolute right-10 flex flex-row lg:flex-col lg:top-36 lg:transform lg:-translate-y-1/2 lg:mt-0 mt-5">
+          <img src="/IMG/PTZ-BLEU.png" alt="logo" className="lg:w-24 w-16 " />
+        </div>
         <h3 className=" text-xl lg:text-2xl text-blue mt-10 font-bold">
           LACANAU, CARCANS, GUJAN-MESTRAS, LÈGE CAP-FERRET, ROYAN ATLANTIQUE
         </h3>
