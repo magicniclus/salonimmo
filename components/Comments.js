@@ -44,7 +44,7 @@ const Comments = () => {
             />
           </div>
           <div className="bg-blue mt-10 mb-10">
-            <div className="mx-auto max-w-7xl px-6 py-14 sm:py-24 lg:flex lg:items-center lg:justify-between lg:px-8 flex-col">
+            <div className="mx-auto max-w-7xl px-6 py-14 sm:py-16 lg:flex lg:items-center lg:justify-between lg:px-8 flex-col">
               <div className="flex justify-between lg:flex-row flex-col  w-full">
                 <h2 className=" text-2xl tracking-tight text-or font-raleway text-green">
                   Vous avez un projet d'investissement immobilier ? <br />
