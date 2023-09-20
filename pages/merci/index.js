@@ -6,8 +6,10 @@ import MerciContainer from "../../components/MerciContainer";
 
 const index = () => {
   useEffect(() => {
-    const link = document.getElementById("hiddenDownloadLink");
-    link.click();
+    setTimeout(() => {
+      const link = document.getElementById("hiddenDownloadLink");
+      link.click();
+    }, 2000);
   }, []);
 
   return (
