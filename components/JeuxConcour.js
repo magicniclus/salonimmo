@@ -4,7 +4,7 @@ const JeuxConcour = () => {
   return (
     <section className="mt-10 w-full mx-auto max-w-7xl flex sm:flex-row flex-col bg-blue-200 justify-between items-center z-10 bg-blue px-7 py-14">
       <div className="flex flex-col w-full">
-        <div className="lg:w-1/2 w-11/12">
+        <div className="lg:w-7/12 w-11/12">
           <h2 className="text-green text-4xl lg:text-6xl font-vidaloka">
             JEU-CONCOURS
           </h2>
