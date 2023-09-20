@@ -28,14 +28,6 @@ const TwoImagesBanner = () => {
         />
       </div>
       <div className="w-full bg-green py-10  px-3 lg:px-10 relative">
-        <div className="absolute right-10 hidden lg:flex flex-col top-36 transform -translate-y-1/2">
-          <img src="/IMG/PTZ-BLEU.png" alt="logo" className="lg:w-24 w-16 " />
-          <img
-            src="/IMG/TVA-REDUITE-BLEU.png"
-            alt="logo"
-            className="lg:w-24 w-16 mt-4"
-          />
-        </div>
         <h2 className="text-blue text-xl lg:text-4xl  font-vidaloka">
           DES ADRESSES BORDEAUX MÉTROPOLE
         </h2>
@@ -43,6 +35,18 @@ const TwoImagesBanner = () => {
           éligibles aux aides financières pour devenir propriétaire et emménager
           dès 2024
         </p>
+        <div className="lg:absolute right-10 flex flex-row lg:flex-col lg:top-36 lg:transform lg:-translate-y-1/2 lg:mt-0 mt-5">
+          <img
+            src="/IMG/PTZ-BLEU.png"
+            alt="logo"
+            className="lg:w-24 w-16 lg:mr-0 mr-3"
+          />
+          <img
+            src="/IMG/TVA-REDUITE-BLEU.png"
+            alt="logo"
+            className="lg:w-24 w-16 lg:mt-4"
+          />
+        </div>
         <h3 className=" text-xl lg:text-2xl text-blue mt-10 font-bold">
           BORDEAUX PARC D’ARMAGNAC & FLOIRAC CENTRE-VILLE
         </h3>
