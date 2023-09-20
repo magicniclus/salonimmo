@@ -57,7 +57,7 @@ const VideoBanner = () => {
   }, []);
 
   return (
-    <div className="lg:bg-[url('/IMG/background.png')] lg:bg-left lg:bg-contain lg:bg-no-repeat mt-7 w-full mx-auto max-w-7xl flex lg:flex-row flex-col justify-end bg-blue-200 min-h-[200px] lg:items-end items-center">
+    <div className="lg:bg-[url('/IMG/background.png')] lg:bg-left lg:bg-contain lg:bg-no-repeat lg:mt-7 w-full mx-auto max-w-7xl flex lg:flex-row flex-col justify-end bg-blue-200 min-h-[200px] lg:items-end items-center">
       <div className="lg:w-11/12 w-full flex justify-end lg:p-10 relative">
         <video
           onMouseEnter={() => setIsHover(true)}
