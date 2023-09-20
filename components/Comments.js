@@ -15,7 +15,7 @@ const Comments = () => {
             className="w-14 mr-5"
           />
           <h3 className="text-blue font-raleway">
-            Tous nos commantaires sont certifiés Immodvisor
+            Tous nos commentaires sont certifiés Immodvisor
           </h3>
         </div>
         <div className="w-full mt-10">
