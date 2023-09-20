@@ -22,35 +22,37 @@ export function writeUserData(userId, nom, prenom, email, telephone, civilite) {
   });
 }
 
-// export function writeCRMUserData(nom, prenom, email, telephone, civilite) {
-//   const dateEtHeure = new Date().toISOString();
+export function writeCRMUserData(nom, prenom, email, telephone, civilite) {
+  const dateEtHeure = new Date().toISOString();
 
-//   // Structure des données pour l'API
-//   const contactData = {
-//     nom: nom,
-//     prenom: prenom,
-//     email: email,
-//     telephone_mobile: telephone,
-//     civilite: civilite,
-//     demande: {
-//       date: dateEtHeure,
-//       id_programme: 27,
-//     },
-//   };
+  // Structure des données pour l'API
+  const contactData = {
+    nom: nom,
+    prenom: prenom,
+    email: email,
+    telephone_mobile: telephone,
+    civilite: civilite,
+    demande: {
+      date: dateEtHeure,
+      id_programme: 27,
+      id_provenance: 22,
+      id_provenance_precision: 152,
+    },
+  };
 
-//   return new Promise((resolve, reject) => {
-//     axios
-//       .post("https://api.leizee.com/contacts", contactData, {
-//         auth: {
-//           username: "signaturepromotion-castera",
-//           password: "o53ifo07ox56511qv1m2473jijcg8d",
-//         },
-//       })
-//       .then(() => {
-//         resolve("success");
-//       })
-//       .catch((error) => {
-//         reject(error);
-//       });
-//   });
-// }
+  return new Promise((resolve, reject) => {
+    axios
+      .post("https://api.leizee.com/contacts", contactData, {
+        auth: {
+          username: "signaturepromotion-castera",
+          password: "o53ifo07ox56511qv1m2473jijcg8d",
+        },
+      })
+      .then(() => {
+        resolve("success");
+      })
+      .catch((error) => {
+        reject(error);
+      });
+  });
+}
