@@ -53,14 +53,15 @@ const Hero = () => {
 
   return (
     <section className="mt-7 w-full mx-auto max-w-7xl flex lg:flex-row flex-col bg-blue-200 justify-between min-h-[200px] lg:items-end items-center z-10 relative">
-      <div className="bg-[url('/IMG/bg-hero.png')] bg-left bg-no-repeat bg-cover lg:w-3/5 w-full lg:min-h-0 min-h-[70%] lg:h-full absolute left-0 top-0"></div>
+      <div className="bg-[url('/IMG/bg-hero.png')] bg-left-center bg-no-repeat bg-cover lg:w-3/5 w-full lg:min-h-0 min-h-[70%] lg:h-full absolute left-0 top-0"></div>
+
       <div className="lg:w-11/12 w-full flex lg:flex-row flex-col mx-auto z-10">
         <div className="lg:w-3/6 w-full pr-3 py-3 flex flex-col justify-between lg:items-end px-3 lg:px-10 relative">
-          <img
+          {/* <img
             src="/IMG/promo.png"
             alt="logo"
             className="absolute top-7 left-0 w-[50%] lg:flex hidden"
-          />
+          /> */}
           <div className="absolute right-5 flex flex-col top-1/2 transform -translate-y-1/2">
             <img src="/IMG/PTZ-BLC.png" alt="logo" className="lg:w-24 w-16 " />
             <img
@@ -69,7 +70,8 @@ const Hero = () => {
               className="lg:w-24 w-16 mt-4"
             />
           </div>
-          <div className="w-max max-w-[70%] lg:max-w-[60%] flex flex-col">
+          <img src="/IMG/hero-salon+dates+gagnerplanche.png" alt="salon immo" />
+          {/* <div className="w-max max-w-[70%] lg:max-w-[60%] flex flex-col">
             <div>
               <h2 className="text-4xl text-white mb-10 lg:hidden block">
                 SALON DE L'IMMO STAND 13
@@ -84,19 +86,17 @@ const Hero = () => {
                 Planche de surf à gagner !
               </h2>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-col w-full">
-            <p className="text-white lg:text-2xl font-light font-railway lg:mt-0 mt-7">
+            <p className="text-white lg:text-2xl font-bold font-railway lg:mt-0 mt-24">
               NOS EXPERTS À VOTRE DISPOSITION
             </p>
             <div className="flex flex-col">
               <div className="bg-green w-content font-vidaloka w-max px-1">
-                <h2 className="text-blue text-2xl lg:text-4xl">
-                  POUR RÉPONDRE
-                </h2>
+                <h2 className="text-blue text-lg sm:text-4xl">POUR RÉPONDRE</h2>
               </div>
               <div className="bg-green w-content font-vidaloka w-max px-1">
-                <h2 className="text-blue text-2xl lg:text-4xl">
+                <h2 className="text-blue text-lg sm:text-4xl w-max">
                   À TOUTES VOS QUESTIONS
                 </h2>
               </div>
@@ -109,7 +109,7 @@ const Hero = () => {
         >
           <h2 className="text-or text-2xl font-raleway text-blue">
             Vous souhaitez nous rencontrer ?<br />
-            <span className="text-white inline-block text-2xl font-raleway font-normal">
+            <span className="text-white inline-block text-2xl font-raleway font-bold">
               Téléchargez votre invitation gratuite et le plan du salon
             </span>
           </h2>
