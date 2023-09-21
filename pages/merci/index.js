@@ -5,13 +5,6 @@ import Footer from "../../components/Footer";
 import MerciContainer from "../../components/MerciContainer";
 
 const index = () => {
-  useEffect(() => {
-    setTimeout(() => {
-      const link = document.getElementById("hiddenDownloadLink");
-      link.click();
-    }, 2000);
-  }, []);
-
   return (
     <>
       <Head>
