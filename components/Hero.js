@@ -41,7 +41,7 @@ const Hero = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const userId = generateUniqueId();
-    writeUserData(userId, lastname, firstname, email, phone, gender)
+    writeCRMUserData(userId, lastname, firstname, email, phone, gender)
       .then((success) => {
         console.log(success);
         router.push("/merci");
